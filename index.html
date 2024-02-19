@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>     
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #000000;}
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 40px;
+}
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  outline: none;
+  border-radius: 40px;
+}
+button:hover {
+  opacity: 0.8;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+img.avatar {
+  width: 10%;
+  border-radius: 20%;
+}
+.container {
+  text-align: center;
+  padding: 16px;      
+}
+.login{
+            width: 100%;
+            max-width: 540px;
+            background: linear-gradient(135deg,#d2d3e2,#10065a);
+            margin: 100px auto 20px;
+            padding: 40px 30px 70px;
+            border-radius: 10px;
+        }
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+
+  
+}
+
+      </style>
+      <meta charset="">
+      <title>Log in</title>
+    </head>
+    <body>
+      <div class="login">
+        <h2>Login Form</h2>
+        <form action="my.js" method="post"></form>
+          <div class="imgcontainer">
+            <img src="7136522.png" alt="Avatar" class="avatar">
+          </div>
+          <div class="container">
+            <label for="uname" ><b></b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required><br>
+            <label for="psw"><b></b></label>
+           <input type="password" placeholder="Enter Password" name="psw" required><br>
+            <a href="app.html"> <button type="submit" >Login</button><br></a> 
+            <button type="button" class="cancelbtn">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </body>
+</html>
